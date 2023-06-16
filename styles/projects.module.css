@@ -1,0 +1,146 @@
+.projects {
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    color: black;
+    scroll-margin-top: 50px;
+}
+
+.projectsConteiner {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.projectsHeader {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.projectsInfo {
+    margin: 0 auto;
+    max-width: 800px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    max-height: 350px;
+    margin: 20px;
+}
+
+.infomation{
+    background-color: rgb(0, 0, 0);
+    margin: 40px auto;
+    max-width: 700px;
+    padding: 40px 20px 20px 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.infomationHeader{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.infomationHeaderArrow{
+    margin: 0;
+    color: rgb(135, 0, 255);
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.arrow{
+    width: 30px;
+}
+
+.infomationText{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.5em;
+    text-indent: 1.5em;
+}
+
+.infomationlanguages{
+    font-family: 'Inter', sans-serif;
+    color: rgb(135, 0, 255);
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.href{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 200;
+    margin: 20px;
+}
+
+
+@media (max-width:1100px) {
+    .img {
+        max-height: 250px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:700px) {
+    .img {
+        max-height: 200px;
+        margin-bottom: 10px;
+    }
+
+    .projectsInfo {
+        flex-direction: column;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .arrow{
+        margin: 20px;
+    }
+
+    .infomation{
+        margin: 10px;
+    }
+    
+    .infomationHeader{
+        font-size: 20px;
+    }
+    
+    .infomationText{
+        font-size: 15px;
+    }
+
+    .infomationlanguages{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:420px) {
+    .img {
+        max-height: 170px;
+    }
+
+}

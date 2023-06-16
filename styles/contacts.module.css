@@ -1,0 +1,35 @@
+.contacts {
+    margin: 0;
+    display: flex;
+    width: 100%;
+    color: black;
+    scroll-margin-top: 50px;
+}
+
+.contactsConteiner {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contactsHeader {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.href {
+    margin: 60px auto;
+}
+
+.contactsText {
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.contactsHref {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}

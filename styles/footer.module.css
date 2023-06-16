@@ -1,0 +1,45 @@
+.footer {
+    background: black;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.footerContainer {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footerInner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linksHref {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    margin: 10px;
+}
+
+.footerData {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    margin: 10px;
+}
+
+.linksHref:hover {
+    color: rgb(135, 0, 255);
+}
+
+@media (max-width: 600px) {
+    .footerInner {
+        flex-direction: column;
+        text-align: center;
+    }
+}

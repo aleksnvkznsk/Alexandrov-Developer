@@ -1,0 +1,34 @@
+.container{
+    position: fixed;
+}
+
+.imgtext{
+    position: fixed;
+    display: flex;
+    right: 50px;
+    bottom: 50px;
+    height: 120px;
+    animation: spin 20s linear infinite;
+    display: inline-block;
+}
+  
+  @keyframes spin {
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+
+.imgwrite{
+    position: fixed;
+    display: flex;
+    right: 70px;
+    bottom: 70px;
+    height: 80px;
+    z-index: 10;
+}
+
+@media (max-width:1000px){
+    .container {
+        display: none;
+    }
+}
