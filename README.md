@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![Header](https://github.com/aleksnvkznsk/Alexandrov-Developer/blob/main/public/logo.png?raw=true)](https://aleksandrovdeveloper.ru)
 
-## Getting Started
+### Aleksandrov Developer:
+<p>
+Мой сайт портфолио с которым вы можете ознакомиться перейдя на aleksandrovdeveloper.ru.
+</p>
 
-First, run the development server:
+## Установка
+
+Для установки зависимостей выполните команду в зависимости от пакетного менеджера.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+$ npm install
+
+$ yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Для запуска приложения выполните команду в зависимости от пакетного менеджера.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+$ npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+$ yarn dev
+```
 
-## Learn More
+Посмотреть результат можно в браузере на [http://localhost:3000](http://localhost:3000).
 
-To learn more about Next.js, take a look at the following resources:
+### Языки и инструменты:
+<p>
+- React;<br>
+- Next JS;<br>
+- TypeScript;<br>
+- CSS-Modules;<br>
+- Framer Motion;
+</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Разработчики:
+<p>Александров Александр</p>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Связь со мной:
+[![Telegram](https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9)](https://t.me/aleks_nvkz)
+[![Gmail](https://img.shields.io/badge/-Gmail-090909?style=for-the-badge&logo=Gmail&logoColor=4F7DB3)](mailto:aleksandrov.developer@gmail.com)
