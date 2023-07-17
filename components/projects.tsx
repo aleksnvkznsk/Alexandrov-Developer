@@ -1,6 +1,7 @@
 import style from '@/styles/projects.module.css'
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import { Accordion } from './accordion';
 
 const AnimationHeader = {
     hidden: {
@@ -55,7 +56,7 @@ const Projects = () => {
                     <motion.img variants={MacBookAnimation} src="MacBook.png" alt="" className={style.img} />
                 </div>
 
-                <div className={style.infomation}>
+                {/* <div className={style.infomation}>
                     <div className={style.container}>
                         <p className={style.infomationHeader}>Cайт для свадебного фотографа</p>
                         <div className={style.infomationHeaderArrow} onClick={() => setOpen(prev => !prev)}>{open ? <img className={style.arrow} src="arrow2.svg" /> : <img className={style.arrow} src="arrow1.svg" />}</div>
@@ -74,8 +75,10 @@ const Projects = () => {
                                 <a href="https://www.vovagutsalo.ru" target=" blank" className={style.href}>www.vovagutsalo.ru</a>
                             </div>
                         )}</div>
-                </div>
+                        
+                </div> */}
 
+                <Accordion />
             </div>
         </motion.div >
     );
