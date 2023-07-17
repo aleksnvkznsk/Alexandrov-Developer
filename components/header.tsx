@@ -22,7 +22,7 @@ const Header = () => {
             className={style.header}>
             <div className={style.headerContainer}>
                 <div className={style.headerInner}>
-                    <div className={style.headerLogo}>Alexandrov Developer</div>
+                    <a href="https://aleksandrovdeveloper.ru" className={style.headerLogo}>Alexandrov Developer</a>
                     <nav className={style.nav}>
                         <a className={style.navLink} href="#home">Главная</a>
                         <a className={style.navLink} href="#portfolio">Проекты</a>
