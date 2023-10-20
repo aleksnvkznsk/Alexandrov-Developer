@@ -1,0 +1,53 @@
+.project{
+    background-color: rgb(181, 102, 255);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 500px;
+}
+
+.projectHeader{
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.projectText{
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.3em;
+    text-indent: 1.5em;
+}
+
+.projectLink{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.imgPhone{
+    display: none;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.imgPC{
+    width: 400px;
+    margin: 0 auto;
+}
+
+@media (max-width:700px){
+    .imgPhone{
+        display: block;
+    }
+    
+    .imgPC{
+        display: none;
+    }
+}

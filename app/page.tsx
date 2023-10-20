@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import NavBar from "@/components/navbar";
@@ -19,5 +19,5 @@ export default function Page() {
       <Contacts />
       <Footer />
     </>
-  )
+  );
 }
